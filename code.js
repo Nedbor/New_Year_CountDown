@@ -32,7 +32,7 @@ const countdown = (deadline, countdown, finalMessage) => {
     },1000)
 }
 
-countdown('Jan 01 2022 00:00:00 GMT-5', 'countdown', 'Happy New Year');
+countdown('Jan 01 2023 00:00:00 GMT-5', 'countdown', 'Happy New Year');
 
 // Some Snow Falling by Codepen.io
 
