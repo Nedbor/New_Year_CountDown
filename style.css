@@ -1,5 +1,4 @@
 body {
-    padding: 0vw;
     margin-top: -2.660989888238425vw;
     min-height: 51.62320383182544vw;
     min-width: 51.62320383182544vw;
@@ -14,17 +13,18 @@ body {
 
 h1 {
     font-family: 'Manrope', sans-serif;
-    font-size: 10vw;
+    font-size: 9vw;
 }
 
 .contador {
-    font-size: 7.982969664715274vw;
+    font-size: 8vw;
     font-family: 'M PLUS 1', sans-serif;
-    font-weight: 2.660989888238425vw;
+    font-weight: 2.7vw;
     
 }
 
 h1 {
+    padding-top: 0vw;
     padding-bottom: 24vw;
     width: 99%;
     position: absolute;
@@ -35,6 +35,7 @@ h1 {
 
 .contador {
     padding-top: 20vw;
+    padding-bottom: 0vw;
     width: 99%;
     position: absolute;
     top: 50%;
