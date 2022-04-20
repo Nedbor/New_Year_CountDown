@@ -95,7 +95,7 @@ function resetFlake(flake) {
 
     let z = flake.dataset.origZ = (Math.random() < 0.1) ? (Math.ceil(Math.random() * 100) + 25) : 0;
 
-    let life = flake.dataset.life = (Math.ceil(Math.random() * 4000) + 6000); //Milliseconds
+    let life = flake.dataset.life = (Math.ceil(Math.random() * 2000) + 4000); //Milliseconds
     flake.dataset.origLife = life; //Timestamps for flake creation
 
     flake.style.transform = `translate3d(${x}vw, ${y}vh, ${z}px)`;
