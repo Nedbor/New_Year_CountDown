@@ -36,7 +36,7 @@ countdown('Dec 25 2022 00:00:00 GMT-5', 'countdown', 'Happy Xmas');
 
 // Some Snow Falling by Codepen.io
 
-'use strict';
+/* 'use strict';
 
 const LIFE_PER_TICK = 1000 / 60;
 const MAX_FLAKES = Math.min(75, screen.width / 1280 * 75);
@@ -172,3 +172,4 @@ function appendSnow() {
 }
 
 ready(appendSnow);
+ */
