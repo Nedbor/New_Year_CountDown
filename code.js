@@ -36,7 +36,7 @@ countdown('Dec 25 2022 00:00:00 GMT-5', 'countdown', 'Happy Xmas');
 
 // Some Snow Falling by Codepen.io
 
-/* 'use strict';
+'use strict';
 
 const LIFE_PER_TICK = 1000 / 60;
 const MAX_FLAKES = Math.min(75, screen.width / 1280 * 75);
@@ -53,14 +53,14 @@ const fun = ['⛄', '🎁', '🦌', '☃', '🍪'];
 
 const cssString = `.snowfall-container {
     display: block;
-    height: 100vh;
+    height: 51.62320383182544vw;
     left: 0;
     margin: 0;
     padding: 0;
     -webkit-perspective-origin: top center;
             perspective-origin: top center;
-    -webkit-perspective: 150px;
-            perspective: 150px;
+    -webkit-perspective: 7.982969664715274vw;
+            perspective: 7.982969664715274vw;
     pointer-events: none;
     position: fixed;
     top: 0;
@@ -73,11 +73,11 @@ const cssString = `.snowfall-container {
     pointer-events: none;
     color: #ddf;
     display: block;
-    font-size: 24px;
-    left: -12px;
-    line-height: 24px;
+    font-size: 1.2772751463544438vw;
+    left: -0.6386375731772219vw;
+    line-height: 1.2772751463544438vw;
     position: absolute;
-    top: -12px;
+    top: -0.6386375731772219vw;
     -webkit-transform-origin: center;
             transform-origin: center; }`;
 function ready(fn) {
@@ -172,4 +172,3 @@ function appendSnow() {
 }
 
 ready(appendSnow);
- */
