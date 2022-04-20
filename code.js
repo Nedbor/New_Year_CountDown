@@ -4,7 +4,7 @@ const getRemainTime = deadline => {
         remainSeconds = ('0' + Math.floor(remainTime % 60)).slice(-2),
         remainMinutes = ('0' + Math.floor(remainTime / 60 % 60)).slice(-2),
         remainHours = ('0' + Math.floor(remainTime / 3600 % 24)).slice(-2),
-        remainDays = ('0' + Math.floor(remainTime / (3600 * 24)));
+        remainDays = (Math.floor(remainTime / (3600 * 24)));
 
         
 
