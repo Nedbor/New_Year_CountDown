@@ -53,14 +53,14 @@ const fun = ['⛄', '🎁', '🦌', '☃', '🍪'];
 
 const cssString = `.snowfall-container {
     display: block;
-    height: 51.62320383182544vw;
+    height: 55vw;
     left: 0;
     margin: 0;
     padding: 0;
     -webkit-perspective-origin: top center;
             perspective-origin: top center;
-    -webkit-perspective: 7.982969664715274vw;
-            perspective: 7.982969664715274vw;
+    -webkit-perspective: 8vw;
+            perspective: 8vw;
     pointer-events: none;
     position: fixed;
     top: 0;
@@ -73,11 +73,11 @@ const cssString = `.snowfall-container {
     pointer-events: none;
     color: #ddf;
     display: block;
-    font-size: 1.2772751463544438vw;
-    left: -0.6386375731772219vw;
-    line-height: 1.2772751463544438vw;
+    font-size: 2vw;
+    left: -1vw;
+    line-height: 2vw;
     position: absolute;
-    top: -0.6386375731772219vw;
+    top: -1vw;
     -webkit-transform-origin: center;
             transform-origin: center; }`;
 function ready(fn) {
