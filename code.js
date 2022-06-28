@@ -28,18 +28,20 @@ const countdown = (deadline, countdown, finalMessage) => {
         if (d.remainTime <= 1) {
             clearInterval(timerUpdate);
             el.innerHTML = finalMessage;
+
         }
     },1000)
 }
 
-countdown('Dec 25 2022 00:00:00 GMT-5', 'countdown', 'Happy Xmas');
+countdown('Jan 01 2023 00:00:00 GMT-5', 'countdown', 'Happy New Year!');
+
 
 // Some Snow Falling by Codepen.io
 
 'use strict';
 
 const LIFE_PER_TICK = 1000 / 60;
-const MAX_FLAKES = Math.min(75, screen.width / 1280 * 75);
+const MAX_FLAKES = Math.min(70, screen.width / 1280 * 75);
 const flakes = [];
 const period = [
     n => 5 * (Math.sin(n)),
@@ -71,7 +73,7 @@ const cssString = `.snowfall-container {
 
   .snowflake {
     pointer-events: none;
-    color: #ddf;
+    color: #78D9FD;
     display: block;
     font-size: 2vw;
     left: -1vw;

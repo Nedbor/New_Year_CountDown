@@ -2,7 +2,7 @@ body {
     margin-top: -2.5vw;
     min-height: 52vw;
     min-width: 52vw;
-    background-color: #6868ac;
+    background-color: #00143B;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,13 +13,13 @@ body {
 
 h1 {
     font-family: 'Manrope', sans-serif;
-    font-size: 9vw;
+    font-size: 8vw;
 }
 
 .contador {
     font-size: 8vw;
     font-family: 'M PLUS 1', sans-serif;
-    font-weight: 2.7vw;
+    font-weight: 2.5vw;
     
 }
 
