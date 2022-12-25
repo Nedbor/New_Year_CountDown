@@ -2,30 +2,22 @@ const daysNode = document.getElementById('days');
 const hoursNode = document.getElementById('hours');
 const minutesNode = document.getElementById('minutes');
 const secondsNode = document.getElementById('seconds');
-
-
 const currentYear = new Date().getFullYear();
-const newyear = new Date(`01 01 ${currentYear + 1}`);
-
+const newyear = new Date(`January 01 ${currentYear + 1}`);
 const timeCountDown = () => {
     const currentDate = new Date();
     const newYearDate = new Date(newyear);
     const totalSeconds = (newYearDate - currentDate) / 1000;
-
     const days = Math.floor(totalSeconds / 3600 / 24 );
     const hours = Math.floor(totalSeconds / 3600)  % 24;
     const minutes = Math.floor(totalSeconds / 60) %60;
     const seconds = Math.floor(totalSeconds) % 60;
-
     daysNode.innerHTML = formatTime(days);
     hoursNode.innerHTML = formatTime(hours);
     minutesNode.innerHTML = formatTime(minutes);
     secondsNode.innerHTML = formatTime(seconds);
-
 };
-
 const formatTime = (time) => time > 10 ? time : `${time}`;
-
 timeCountDown();
 setInterval(timeCountDown, 1000);
 
