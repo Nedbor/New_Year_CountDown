@@ -14,9 +14,6 @@
     .time small {
         font-size: 0.5vw;
     }
-    .final-sms h2{
-        font-size: 5vw;
-    }
 }
 
 @media (min-width: 767px) {
@@ -34,8 +31,5 @@
     }
     .time small {
         font-size: 0.5vw;
-    }
-    .final-sms h2{
-        font-size: 4.5vw;
     }
 }

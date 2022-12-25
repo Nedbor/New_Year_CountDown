@@ -45,25 +45,6 @@ h1 {
     margin: 0 0  5px;
 }
 
-.final-sms{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    display: grid;
-    place-items: center;
-    transform: translateY(-100%);
-    transition: ease-in-out 0.5s;
-    background-color: #333;
-}
-
-.final-sms h2{
-    text-align: center;
-    font-size: 100px;
-    color: #fff;
-}
-
 canvas {
 	cursor: crosshair;
 	display: block;
