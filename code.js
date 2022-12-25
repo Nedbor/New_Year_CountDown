@@ -29,7 +29,7 @@ const timeCountDown = () => {
 
 };
 
-const formatTime = (time) => time > 10 ? time : `${time}`;
+const formatTime = (time) => time > 10 ? time : `0${time}`;
 
 timeCountDown();
 setInterval(timeCountDown, 1000);
