@@ -2,7 +2,7 @@ const $days = document.getElementById('days'),
 $hours = document.getElementById('hours'),
 $minutes = document.getElementById('minutes'),
 $seconds = document.getElementById('seconds'),
-$finalMessage = document.getElementById('final-sms');
+$finalMessage = document.getElementsByClassName('.final-sms');
 
 const countdownDate = new Date('01 01, 2023 00:00:00').getTime();
 
