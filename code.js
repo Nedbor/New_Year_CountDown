@@ -1,8 +1,8 @@
-const $daysNode = document.getElementById('days'),
-$hoursNode = document.getElementById('hours'),
-$minutesNode = document.getElementById('minutes'),
-$secondsNode = document.getElementById('seconds'),
-$finalMessage = document.querySelector('.final-sms');
+const daysNode = document.getElementById('days');
+const hoursNode = document.getElementById('hours');
+const minutesNode = document.getElementById('minutes');
+const secondsNode = document.getElementById('seconds');
+
 
 const currentYear = new Date().getFullYear();
 const newyear = new Date(`01 01 ${currentYear + 1}`);
@@ -17,19 +17,14 @@ const timeCountDown = () => {
     const minutes = Math.floor(totalSeconds / 60) %60;
     const seconds = Math.floor(totalSeconds) % 60;
 
-    $daysNode.innerHTML = formatTime(days);
-    $hoursNode.innerHTML = formatTime(hours);
-    $minutesNode.innerHTML = formatTime(minutes);
-    $secondsNode.innerHTML = formatTime(seconds);
-
-    if(totalSeconds < 0){
-        clearInterval(timeCountDown);
-        $finalMessage.style.transform = 'translateY(0)';
-    }
+    daysNode.innerHTML = formatTime(days);
+    hoursNode.innerHTML = formatTime(hours);
+    minutesNode.innerHTML = formatTime(minutes);
+    secondsNode.innerHTML = formatTime(seconds);
 
 };
 
-const formatTime = (time) => time > 10 ? time : `0${time}`;
+const formatTime = (time) => time > 10 ? time : `${time}`;
 
 timeCountDown();
 setInterval(timeCountDown, 1000);
