@@ -63,3 +63,14 @@ h1 {
     font-size: 100px;
     color: #fff;
 }
+
+body {
+	background: #000;
+	margin: 0;
+}
+
+canvas {
+	cursor: crosshair;
+	display: block;
+    position: absolute;
+}
