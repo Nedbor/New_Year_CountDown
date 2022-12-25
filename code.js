@@ -40,7 +40,7 @@ $secondsNode = document.getElementById('seconds'),
 $finalMessage = document.querySelector('.final-sms');
 
 const currentYear = new Date().getFullYear();
-const newyear = new Date(`January 01 ${currentYear + 1}`);
+const newyear = new Date(`01 01 ${currentYear + 1}`);
 
 const timeCountDown = () => {
     const currentDate = new Date();
