@@ -1,4 +1,4 @@
-/* const $days = document.getElementById('days'),
+const $days = document.getElementById('days'),
 $hours = document.getElementById('hours'),
 $minutes = document.getElementById('minutes'),
 $seconds = document.getElementById('seconds'),
@@ -32,8 +32,8 @@ let interval = setInterval(function(){
     }
 }, 1000); 
 
-*/
-const $daysNode = document.getElementById('days'),
+
+/* const $daysNode = document.getElementById('days'),
 $hoursNode = document.getElementById('hours'),
 $minutesNode = document.getElementById('minutes'),
 $secondsNode = document.getElementById('seconds'),
@@ -67,5 +67,5 @@ const timeCountDown = () => {
 const formatTime = (time) => time > 10 ? time : `${time}`;
 
 timeCountDown();
-setInterval(timeCountDown, 1000);
+setInterval(timeCountDown, 1000); */
 
