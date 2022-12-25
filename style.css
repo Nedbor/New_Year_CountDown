@@ -64,3 +64,8 @@ h1 {
     color: #fff;
 }
 
+canvas {
+	cursor: crosshair;
+	display: block;
+    position: absolute;
+}
