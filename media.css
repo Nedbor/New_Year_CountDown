@@ -1,0 +1,41 @@
+@media (max-width: 767px) {
+    h1{
+        font-size: 8vw;
+    }
+    h3{
+        font-size: 1vw;
+    }
+    .time {
+        margin: 1.1vw;
+    }
+    .time h2 {
+        font-size: 1vw;
+    }
+    .time small {
+        font-size: 0.5vw;
+    }
+    .final-sms h2{
+        font-size: 5vw;
+    }
+}
+
+@media (min-width: 767px) {
+    h1{
+        font-size: 7vw;
+    }
+    h3{
+        font-size: 0.5vw;
+    }
+    .time {
+        margin: 0.6vw;
+    }
+    .time h2 {
+        font-size: 0.5vw;
+    }
+    .time small {
+        font-size: 0.5vw;
+    }
+    .final-sms h2{
+        font-size: 4.5vw;
+    }
+}

@@ -1,44 +1,65 @@
+html, body{
+    height: 100%;
+    min-height: 100%;
+}
+
 body {
     margin-top: -2.5vw;
-    min-height: 52vw;
+    min-height: 46vw;
     min-width: 52vw;
-    background-color: #00143B;
+    background-color: #cc231e;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: rgb(255, 255, 255);
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1 {
-    font-family: 'Manrope', sans-serif;
     font-size: 8vw;
 }
 
-.contador {
+.countdown {
     font-size: 8vw;
-    font-family: 'M PLUS 1', sans-serif;
+    display: flex;
+    transform: scale(5);
     font-weight: 2.5vw;
-    
 }
 
-h1 {
-    padding-top: 0vw;
-    padding-bottom: 24vw;
-    width: 99%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+.time {
+    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 8px;
 }
 
-.contador {
-    padding-top: 20vw;
-    padding-bottom: 0vw;
-    width: 99%;
+.time h2 {
+    font-weight: bold;
+    font-size: 1.5vw;
+    line-height: 1;
+    margin: 0 0  5px;
+}
+
+.final-sms{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(-100%);
+    transition: ease-in-out 0.5s;
+    background-color: #333;
+}
+
+.final-sms h2{
+    text-align: center;
+    font-size: 100px;
+    color: #fff;
 }
